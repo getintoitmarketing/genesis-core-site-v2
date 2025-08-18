@@ -1,0 +1,20 @@
+Write an article.
+
+INPUTS
+id: {{select from webhook > Query string > id}}
+vertical: {{... > vertical}}
+topic: {{... > topic}}
+angle: {{... > angle}}
+audience: {{... > audience}}
+voice: {{... > voice}}
+word_target: {{... > word_target}}
+
+REQUIREMENTS
+- Generate a URL-safe slug.
+- Title should be specific and non-clickbait.
+- outline_json: 6–10 bullet points capturing the structure.
+- draft_md: first-pass markdown using the outline.
+- final_md: tighten the draft; add examples, steps, and a tiny CTA aligned to the vertical.
+
+OUTPUT
+Return ONLY the JSON object (no code fences, no commentary).
