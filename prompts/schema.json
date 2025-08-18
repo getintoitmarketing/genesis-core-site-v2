@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "slug": {"type":"string"},
+    "title": {"type":"string"},
+    "outline_json": {"type":"array","items":{"type":"string"}},
+    "draft_md": {"type":"string"},
+    "final_md": {"type":"string"}
+  },
+  "required": ["slug","title","outline_json","draft_md","final_md"],
+  "additionalProperties": false
+}
